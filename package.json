@@ -1,0 +1,22 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "server for mevn",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "backend",
+    "server"
+  ],
+  "author": "Sami",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.1",
+    "mongoose": "^5.4.0"
+  }
+}
